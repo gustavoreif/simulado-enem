@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Enem</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/97b14e51d6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section class="cabecalho">
+            <h1><a href="index.html">Simulado ENEM</a></h1>
+            <ul class="menu-desktoop">
+                <li><i class="fa-regular fa-house"></i><a href="index.html">Início</a></li>
+                <li><i class="fa-regular fa-clock"></i><a href="historico.html">Histórico</a></li>
+                <li><i class="fa-solid fa-chart-column"></i><a href="estatisticas.html">Estátisticas</a></li>
+            </ul>
+
+            <button class="iniciar btn-principal">Iniciar Simulado</button>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </section>
+        <hr>
+
+        <div class="menu-overlay" id="menuOverlay"></div>
+        <nav class="menu-mobile" id="menuMobile">
+            <ul>
+                <li><i class="fa-regular fa-house"></i><a href="index.html">Início</a></li>
+                <li><i class="fa-regular fa-clock"></i><a href="historico.html">Histórico</a></li>
+                <li><i class="fa-solid fa-chart-column"></i><a href="estatisticas.html">Estátisticas</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="container">
+            <h2 class="container__title">Pratique para o ENEM com simulados inteligentes</h2>
+            <p class="container__text">Acesse milhares de questões do ENEM organizadas por matéria e ano. Prepare-se de
+                forma eficiente com
+                nossa plataforma de estudos.</p>
+            <a href="simulado.html" class="container__start btn-principal">
+                Começar Simulado <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </section>
+
+        <section class="escolher-materia">
+            <h2 class="materia__title">Escolha Sua Matéria</h2>
+
+            <div class="materias-grid">
+
+                <div class="materia" data-materia="Matemática">
+                    <i class="fa-solid fa-calculator"></i>
+                    <h3>Matemática</h3>
+                    <p class="total-questoes">0 questões disponíveis</p>
+                </div>
+
+                <div class="materia" data-materia="Linguagens">
+                    <i class="fa-solid fa-book"></i>
+                    <h3>Linguagens</h3>
+                    <p class="total-questoes">0 questões disponíveis</p>
+                </div>
+
+                <div class="materia" data-materia="Ciências Humanas">
+                    <i class="fa-solid fa-user-group"></i>
+                    <h3>Ciências Humanas</h3>
+                    <p class="total-questoes">0 questões disponíveis</p>
+                </div>
+
+                <div class="materia" data-materia="Ciências da Natureza">
+                    <i class="fa-solid fa-flask"></i>
+                    <h3>Ciências da Natureza</h3>
+                    <p class="total-questoes">0 questões disponíveis</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="estatisticas-gerais">
+            <h2 class="estatisticas-title">Suas estatísticas</h2>
+
+            <div class="estatisticas">
+                <div class="estatisticas-grid">
+                    <div class="icone-stat icone-azul">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <h2>0</h2>
+                    <h4>Questões resolvidas</h4>
+                </div>
+
+                <div class="estatisticas-grid">
+                    <div class="icone-stat icone-verde">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                    </div>
+                    <h2>0%</h2>
+                    <h4>Taxa de acertos</h4>
+                </div>
+
+                <div class="estatisticas-grid">
+                    <div class="icone-stat icone-laranja">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h2>0</h2>
+                    <h4>Simulados concluídos</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="recursos">
+
+            <div class="container-recurso">
+
+                <div class="recursos-grid">
+
+                    <div class="recurso">
+
+                        <div class="icone">
+                            <i class="fa-regular fa-file-lines"></i>
+                        </div>
+
+                        <h3>Questões autênticas</h3>
+
+                        <p>
+                            Todas as questões são retiradas de provas anteriores do ENEM
+                        </p>
+
+                    </div>
+
+                    <div class="recurso">
+
+                        <div class="icone">
+                            <i class="fa-solid fa-chart-column"></i>
+                        </div>
+
+                        <h3>Acompanhe seu progresso</h3>
+
+                        <p>
+                            Visualize estatísticas detalhadas do seu
+                            desempenho.
+                        </p>
+                    </div>
+
+                    <div class="recurso">
+
+                        <div class="icone">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+
+                        <h3>Foco na aprovação</h3>
+
+                        <p>
+                            Interface pensada para otimizar seu tempo
+                            de estudo.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+
+        <div class="container-footer">
+
+            <div class="footer-content">
+
+                <div class="footer-col">
+                    <h3>Simulado ENEM</h3>
+
+                    <p>
+                        Plataforma completa para preparação ao ENEM com
+                        questões organizadas por matéria e ano.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Recursos</h4>
+
+                    <ul>
+                        <li><a href="historico.html">Histórico</a></li>
+                        <li><a href="simulado.html">Simulados</a></li>
+                        <li><a href="estatisticas.html">Estatísticas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Matérias</h4>
+
+                    <ul>
+                        <li><a href="#" class="link-materia" data-materia="Matemática">Matemática</a></li>
+                        <li><a href="#" class="link-materia" data-materia="Linguagens">Linguagens</a></li>
+                        <li><a href="#" class="link-materia" data-materia="Ciências Humanas">Ciências Humanas</a></li>
+                        <li><a href="#" class="link-materia" data-materia="Ciências da Natureza">Ciências da
+                                Natureza</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Projeto</h4>
+
+                    <ul>
+                        <li><a href="https://github.com/gustavoreif/simulado-enem/blob/main/README.md" target="_blank" rel="noopener noreferrer">Sobre o projeto</a></li>
+                        <li><a href="https://github.com/gustavoreif/simulado-enem" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://github.com/gustavoreif/simulado-enem/blob/main/README.md" target="_blank" rel="noopener noreferrer">Tecnologias</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Simulado ENEM. Todos os direitos reservados.</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
