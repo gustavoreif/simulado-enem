@@ -1,0 +1,171 @@
+[
+    {
+        "id": 1,
+        "ano": 2025,
+        "materia": "Matemática",
+        "nivel": 1,
+        "pergunta": "A final de um campeonato de futebol foi disputada em 2 tempos regulamentares, de 45 minutos cada, sem acréscimos, com uma prorrogação de 30 minutos, também sem acréscimos. Um jogador entrou no início do segundo tempo, com um equipamento para medir a distância percorrida durante sua participação no jogo. Ao final do segundo tempo regulamentar, esse jogador havia  percorrido 4,5 km. Ele manteve na prorrogação a mesma velocidade média que havia mantido no segundo tempo regulamentar. A distância percorrida por esse jogador durante sua participação na partida, em quilômetro, foi",
+        "respostaCorreta": "C",
+        "explicacao": "O jogador entrou no início do segundo tempo, participando de 45 minutos do tempo regulamentar e mais 30 minutos da prorrogação. No segundo tempo, ele percorreu 4,5 km em 45 minutos, o que permite calcular sua velocidade média dividindo a distância pelo tempo: 4,5 ÷ 45 = 0,1 km por minuto. Como ele manteve a mesma velocidade durante a prorrogação, basta multiplicar essa velocidade pelo tempo adicional de 30 minutos, obtendo 0,1 x 30 = 3 km. Somando a distância do segundo tempo com a da prorrogação, temos 4,5 + 3 = 7,5 km, que é a distância total percorrida pelo jogador na partida.",
+        "alternativas": [
+            {
+                "id": "A",
+                "text": "4,5"
+            },
+            {
+                "id": "B",
+                "text": "6,0"
+            },
+            {
+                "id": "C",
+                "text": "7,5"
+            },
+            {
+                "id": "D",
+                "text": "9,0"
+            },
+            {
+                "id": "E",
+                "text": "12,0"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "ano": 2020,
+        "materia": "Linguagens",
+        "nivel": 2,
+        "pergunta": "Pisoteamento, arrastão, empurra-empurra, agressões, vandalismo e até furto a um torcedor que estava caído no asfalto após ser atropelado nas imediações do estádio do Maracanã. As cenas de selvageria tiveram como estopim a invasão de milhares de torcedores sem ingresso, que furaram o bloqueio policial e transformaram o estádio em terra de ninguém. Um reflexo não só do quadro de insegurança que assola o Rio de Janeiro, mas também de como a violência social se embrenha pelo esporte mais popular do país. Em 2017, foram registrados 104 episódios de violência no futebol brasileiro, que resultaram em 11 mortes de torcedores. Desde 1995, quando 101 torcedores ficaram feridos e um morreu durante uma batalha campal no estádio do Pacaembu, autoridades têm focado as ações de enfrentamento à violência no futebol em grupos uniformizados, alguns proibidos de frequentar estádios. Porém, a postura meramente repressiva contra torcidas organizadas é ineficaz em uma sociedade que registra mais de 61 000 homicídios por ano. “É impossível dissociar a escalada de violência no futebol do panorama de desordem pública, social, econômica e política vivida pelo país”, de acordo com um doutor em sociologia do esporte. Nesse texto, a violência no futebol está caracterizada como um(a)",
+        "respostaCorreta": "C",
+        "explicacao": "O texto afirma categoricamente que é “impossível dissociar” a violência no estádio da “desordem pública, social, econômica e política” do país, caracterizando o futebol como um espelho (reflexo) dos problemas macros da sociedade.",
+        "alternativas": [
+            {
+                "id": "A",
+                "text": "problema social localizado numa região do país."
+            },
+            {
+                "id": "B",
+                "text": "desafio para as torcidas organizadas dos clubes."
+            },
+            {
+                "id": "C",
+                "text": "reflexo da precariedade da organização social no país."
+            },
+            {
+                "id": "D",
+                "text": "inadequação de espaço nos estádios para receber o público."
+            },
+            {
+                "id": "E",
+                "text": "consequência da insatisfação dos clubes com a organização dos jogos."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "ano": 2021,
+        "nivel": 3,
+        "materia": "Ciências Humanas",
+        "pergunta": "A Revolução Industrial, iniciada no século XVIII na Inglaterra, marcou uma profunda transformação nas relações de trabalho e produção. Entre as principais consequências desse processo, destaca-se:",
+        "respostaCorreta": "B",
+        "explicacao": "A Revolução Industrial trouxe mudanças radicais nas relações de trabalho e produção. Uma das principais consequências foi o surgimento do proletariado urbano (trabalhadores assalariados) e das fábricas, que concentravam a produção mecanizada. Isso substituiu o sistema feudal e as corporações de ofício, além de aumentar significativamente a urbanização nas regiões industrializadas.",
+        "alternativas": [
+            {
+                "id": "A",
+                "text": "A manutenção do sistema feudal de produção."
+            },
+            {
+                "id": "B",
+                "text": "O surgimento do proletariado urbano e das fábricas."
+            },
+            {
+                "id": "C",
+                "text": "A descentralização da produção manufatureira."
+            },
+            {
+                "id": "D",
+                "text": "O fortalecimento das corporações de ofício medievais."
+            },
+            {
+                "id": "E",
+                "text": "A redução da urbanização nas áreas industrializadas."
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "ano": 2019,
+        "materia": "Ciências da Natureza",
+        "nivel": 2,
+        "pergunta": "A energia cinética de um objeto em movimento depende diretamente de sua massa e do quadrado de sua velocidade. Se um carro duplica sua velocidade, por quanto sua energia cinética é multiplicada?",
+        "respostaCorreta": "D",
+        "explicacao": "A energia cinética é calculada pela fórmula Ec = (m × v²) / 2. Como a energia depende do quadrado da velocidade, quando duplicamos a velocidade (2v), temos: Ec = m × (2v)² / 2 = m × 4v² / 2 = 4 × (m × v² / 2). Portanto, a energia cinética é multiplicada por 4 (quadruplicada) quando a velocidade é duplicada.",
+        "alternativas": [
+            { "id": "A", "text": "Permanece a mesma" },
+            { "id": "B", "text": "É duplicada" },
+            { "id": "C", "text": "É triplicada" },
+            { "id": "D", "text": "É quadruplicada" },
+            { "id": "E", "text": "É multiplicada por oito" }
+        ]
+    },
+
+    {
+        "id": 5,
+        "ano": 2019,
+        "materia": "Matemática",
+        "nivel": 1,
+        "pergunta": "Em uma turma de 40 alunos, 25 praticam futebol, 20 praticam basquete e 10 praticam ambos os esportes. Quantos alunos dessa turma não praticam nenhum desses dois esportes?",
+        "respostaCorreta": "B",
+        "explicacao": "Usando o princípio da inclusão-exclusão: Total que pratica = Futebol + Basquete - Ambos = 25 + 20 - 10 = 35 alunos praticam pelo menos um esporte. Como a turma tem 40 alunos, então: 40 - 35 = 5 alunos não praticam nenhum dos dois esportes.",
+        "alternativas": [
+            { "id": "A", "text": "3 alunos" },
+            { "id": "B", "text": "5 alunos" },
+            { "id": "C", "text": "7 alunos" },
+            { "id": "D", "text": "10 alunos" },
+            { "id": "E", "text": "15 alunos" }
+        ]
+    },
+
+     {
+        "id": 6,
+        "ano": 2020,
+        "materia": "Linguagens",
+        "nivel": 1,
+        "pergunta": "Essa é uma campanha de conscientização sobre os efeitos do álcool na direção. Pela leitura do texto, depreende-se que",
+        "tituloImagem": "",
+        "imagem": "https://glau-cdn.nyc3.cdn.digitaloceanspaces.com/questions/images/6af432578ed2451b9ec70657005d5a4b.webp",
+        "fonteImagem": "Disponível em: www.comunicadores.info. Acesso em: 27 ago. 2017.",
+        "respostaCorreta": "A",
+        "explicacao": " A campanha utiliza a imagem do ciclista que some para representar metaforicamente como o álcool afeta os sentidos (a visão) do motorista, tornando-o incapaz de perceber os perigos e podendo levar à morte de uma pessoa inocente.",
+        "alternativas": [
+            { "id": "A", "text": "o álcool afeta os sentidos humanos, podendo provocar a morte de pessoas inocentes." },
+            { "id": "B", "text": "a bicicleta é um veículo de difícil visibilidade para os motoristas alcoolizados." },
+            { "id": "C", "text": "o recipiente da bebida pode ser usado como refletor da imagem da criança." },
+            { "id": "D", "text": "a visão do motorista alcoolizado fica turva após a ingestão de bebida." },
+            { "id": "E", "text": "a bebida alcóolica é proibida a menores de idade." }
+        ]
+    },
+
+    {
+        "id": 7,
+        "ano": 2025,
+        "materia": "Ciências Humanas",
+        "nivel": 2,
+        "pergunta": "A dispersão espacial do problema ambiental representado na imagem de satélite é explicada pela seguinte característica geográfica:",
+        "tituloImagem": "Concentração de CO<sub>2</sub> por queimadas entre África e Brasil em 30 de agosto de 2019 ",
+        "imagem": "https://glau-cdn.nyc3.cdn.digitaloceanspaces.com/questions/images/eb6203eabde44be4a397c66abafd5f29.webp",
+        "fonteImagem": "Disponível em: https://noticias.uol.com.br. Acesso em: 10 out. 2019 (adaptado).",
+        "respostaCorreta": "D",
+        "explicacao": "Esta alternativa está correta porque a mancha de CO<sub>2</sub>, que se estende por todo o Oceano Atlântico Sul, só pode ser transportada de um continente a outro pela ação dos ventos em grande escala, ou seja, pela circulação das massas de ar.",
+        "alternativas": [
+            { "id": "A", "text": "Amplitude das temperaturas médias."},
+            { "id": "B", "text": "Homogeneidade da insolação anual."},
+            { "id": "C", "text": "Ocorrência de chuvas de relevo."},
+            { "id": "D", "text": "Circulação de massas de ar."},
+            { "id": "E", "text": " Ausência de frentes frias."}
+        ]
+    }
+
+
+]
